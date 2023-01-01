@@ -1,0 +1,366 @@
+*{
+  box-sizing: border-box;
+}
+body
+{
+  background-image: url(./images/new1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0;
+  font-family: 'Inter', sans-serif;
+}
+.navbar
+{
+  color: #e6894d;
+  padding: 1rem;
+  width: 50%;
+  margin:1em;
+  margin-right: 0px;
+}
+.nav
+{
+  display: flex;
+  align-items: center;
+}
+
+.eventcreation
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem; 
+  width: 100%;
+}
+.form-div 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form
+{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 3em;
+  min-width: 200px;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px #bebebe, 0px 0px 10px #ffffff;
+  color:#e6894d;
+}
+.form-1
+{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 2em;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px #bebebe, 0px 0px 10px #ffffff;
+  color:#e6894d;
+}
+.in-item
+{ 
+  font-size: 1em;
+  margin:1em;
+  padding: 0.5rem;
+  background-color: lavender;
+  color: black;
+  text-transform: capitalize;
+}
+.sub-btn
+{
+  margin: 10px ;
+  padding: 10px; 
+  background-color: #e6894d;
+  border-radius: 5px;
+  color: lavender;
+  font-size: 1.08em;
+  font-family: 'Playfair Display', serif;
+  cursor:pointer;
+}
+.sub-btn-1
+{
+  margin: 10px ;
+  padding: 10px; 
+  background-color: #e6894d;
+  border-radius: 5px;
+  color: lavender;
+  font-size: 1.08em;
+  cursor:pointer;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.showlist-map
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #062F4f;
+  margin-top: 3rem;
+  border-radius: 10px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: aliceblue;
+  min-width: 250px;
+  max-width: 800px;
+  
+}
+/* @media only screen and (max-width:700px)
+{
+  .organiser > p
+  {
+    display: block;
+  }
+} */
+.container-1
+{
+  display: flex;
+  width: 100%;
+  top: 0%;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px #bebebe, 0px 0px 10px #ffffff;
+}
+  
+.buy-btn
+{ 
+  
+  display: inline;
+  background-color:  #e5d758;
+  color:#4634b9;
+  border-radius: 100px;
+  padding: 0.5rem;
+  font-size: medium;
+  margin: 1rem ;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+@media only screen and (min-width:700px)
+{
+  .description
+  {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+    border-radius: 7px;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0px 0px 5px #bebebe, 0px 0px 10px #ffffff;
+  }
+  .description > p
+{
+   max-width: 20%;
+  min-width: 300px;
+  padding: 2rem;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  word-spacing: 10px;
+  line-height: 1.8rem;
+  color: #e5d758;
+}
+.img-div
+{
+  width: 50%;
+  padding: 1rem;
+  min-width: 400px;
+}
+.img-div >img
+{
+  width: 100%;
+  height: auto;
+}
+}
+
+
+.info-div
+{
+  position: relative;
+  margin: 2rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem; 
+  background-color: #e5d758;
+  background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+
+}
+.sec-buy,.sec-transfer
+{
+  margin-bottom: 3rem;
+  font-family: 'Playfair Display', serif;
+  color:#e5d758;
+  font-size:2rem
+}
+
+.wallet-btn
+{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  display: inline;
+  background-color:  #e5d758;
+  color:#4634b9;
+  border-radius: 100px;
+  padding: 0.5rem;
+  font-size: medium;
+  margin: 1rem ;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.ticket-info
+{
+  background: linear-gradient(275deg,#eacda3 0%, #d6ae7b 20%);
+  box-shadow: 0px 0px 10px #bebebe, 0px 0px 10px #ffffff;
+  padding:2rem;
+  border-radius: 10px;
+  color: #4634b9;;
+}
+.showlist-div
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 2rem;
+  box-shadow: 0px 0px 5px #bebebe, 0px 0px 10px #ffffff;
+}
+.showEvent-map
+{
+  text-align: center;
+  margin:2rem;
+  font-size: larger;
+  font-family: 'Playfair Display', serif;
+  color: #e5d758;
+}
+.showEvent-map > span
+{
+  cursor: pointer;
+}
+.showlist
+{
+  width: 100%;
+}
+.map-div
+{
+  width: 100%;
+}
+.showlist-main
+{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card-name
+{
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  color:gainsboro;
+  margin-bottom: 1rem;
+  color: #e5d758;
+}
+.card-info
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  color:black;
+  background: linear-gradient(360deg,#280943 0% , #9d368d 100%);
+  border-radius: 7px;
+  font-family: 'Playfair Display', serif;
+  color: #e5d758;
+  }
+  .organiser
+  {
+    word-wrap: break-word;
+    font-size: 25px;
+  }
+  .info-card
+  {
+    margin:2rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+@media only screen and (max-width:700px)
+{
+  .description
+  {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin: 1rem;
+    border-radius: 20px;
+    background: linear-gradient(360deg,#42275a 0% , #734b6d 100%);
+    border-radius: 7px;
+    padding: 2rem;
+    font-family: 'Playfair Display', serif;
+  }
+  .description > p
+  {
+  
+    font-family: 'Playfair Display', serif;
+    color: #e5d758;
+  }
+  .img-div
+  {
+    width: 100%;
+    padding: 2em;
+  }
+  .img-div > img
+  {
+    width: 100%;
+  }
+  .form,.form-1
+  {
+    padding:1rem;
+  }
+  .showlist-div
+  {
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width:270px)
+ {
+  .eventcreation
+  {
+   min-width: 10%;
+  }
+  .form-div
+  {
+    padding: 0.2rem;
+  }
+  .wallet-btn
+  {
+    margin-bottom: 2rem;
+  }
+}
+
+
